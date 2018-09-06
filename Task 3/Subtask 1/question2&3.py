@@ -15,3 +15,9 @@ for i in datatypes:
         numerical_features.append(i)
         
 print(numerical_features, categorical_features)
+
+"""
+OUTPUT:
+['Age', 'Fare', 'Parch', 'PassengerId', 'Pclass', 'SibSp', 'Survived'] 
+['Cabin', 'Embarked', 'Name', 'Sex', 'Ticket']
+"""
